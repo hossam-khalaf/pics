@@ -7,12 +7,10 @@ class SearchBar extends Component {
 				<form className='ui form'>
 					<div className='field'>
 						<label htmlFor='imageSearch'>Image Search</label>
-						<input
-							type='text'
-							name='imageSearch'
-							id='imageSearch'
-							placeholder='hey search here'
-						/>
+						<div className='ui icon input'>
+							<input type='text' placeholder='Search Images...' />
+							<i className='search icon'></i>
+						</div>
 					</div>
 				</form>
 			</div>
